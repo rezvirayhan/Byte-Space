@@ -1,1 +1,19 @@
+/* src/index.css */
+
+/* 1. Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap');
+
+/* 2. Import Tailwind v4 */
 @import 'tailwindcss';
+
+/* 3. Configure Custom Fonts in Tailwind v4 */
+@theme {
+  /* Set Pirata One as the default font family for standard text */
+  --font-sans: 'Pirata One', cursive, sans-serif;
+
+  /* Custom font utility definitions */
+  --font-pirata: 'Pirata One', cursive, sans-serif;
+  --font-satoshi: 'Satoshi', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+}
