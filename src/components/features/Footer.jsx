@@ -32,7 +32,7 @@ const Footer = () => {
 
   return (
     <footer className="w-full bg-white text-gray-800 border-t border-gray-200 py-10 px-4 sm:px-6 lg:px-12 font-sans">
-      <div className="max-w-[1660px] mx-auto">
+      <div className="max-w-[1460px] mx-auto">
         <div className="flex flex-col lg:flex-row justify-between gap-12 lg:gap-20">
           <div className="w-full lg:max-w-xl xl:max-w-2xl flex flex-col justify-between">
             <div>
