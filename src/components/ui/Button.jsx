@@ -2,7 +2,7 @@ const Button = ({
   children,
   onClick,
   type = 'button',
-  width = 'w-auto',
+  width = '',
   className = '',
   disabled = false,
   ...props
@@ -27,7 +27,6 @@ const Button = ({
         flex
         items-center
         justify-center
-        ${width}
         ${className}
       `}
       {...props}
