@@ -14,10 +14,16 @@ import heroleft_bottom from './../../public/assets/cat/heroleft_bottom.png';
 import right_middle from './../../public/assets/cat/right_middle.png';
 import right_top from './../../public/assets/cat/right_top.png';
 import navlogo from './../../public/assets/navlogo.png';
+import team5 from './../../public/assets/team/team5.png';
+import key_point from './../../public/assets/icon/key_point.png';
+import review from './../../public/assets/icon/review.png';
 
 const Images = {
   Logo,
+  team5,
   navlogo,
+  key_point,
+  review,
   heroleft_center,
   heroleft_bottom,
   right_middle,

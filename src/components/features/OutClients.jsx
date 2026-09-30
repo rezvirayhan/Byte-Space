@@ -17,7 +17,7 @@ const OurClients = () => {
   return (
     <div className="bg-[#F5F5F6] w-full py-10 sm:py-12 md:py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-[1460px] mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:gap-20 items-center justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 xl:gap-20 items-center justify-items-center">
           {clientLogos.map((client) => (
             <div
               key={client.id}

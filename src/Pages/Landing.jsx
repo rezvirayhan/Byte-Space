@@ -10,10 +10,10 @@ const Landing = () => {
   return (
     <div>
       <HeroSection />
-      <Courses />
       <OutClients />
-      <Support />
+      <Courses />
       <CourseCategories />
+      <Support />
       <CreatorCTA />
       <Testimonials />
     </div>

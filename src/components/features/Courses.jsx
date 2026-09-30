@@ -1,7 +1,8 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import CourseCard from './CoursesCard';
 import NoCourses from '../ui/Nocourses';
 import SectionTitle from '../ui/SectionTitle';
+import { Link } from 'react-router-dom';
 
 const Courses = () => {
   const [coursesData, setCoursesData] = useState({
@@ -53,7 +54,7 @@ const Courses = () => {
   }
 
   return (
-    <div className="max-w-[1460px] mx-auto mx-auto p-4 sm:p-6 font-sans ">
+    <div className="max-w-[1460px] mx-auto p-4 sm:p-6 font-sans ">
       <div>
         <div>
           <SectionTitle
@@ -61,8 +62,7 @@ const Courses = () => {
             heading="Build Your Skills"
             className="justify-center text-center text-[#040819]"
           />
-
-          <p className="font-satoshi font-normal text-sm sm:text-base md:text-lg text-[#82868E] max-w-4xl mx-auto leading-relaxed mt-4 sm:mt-6">
+          <p className="font-satoshi font-normal text-sm sm:text-base md:text-lg text-[#82868E] max-w-4xl mx-auto leading-relaxed mt-4 sm:mt-6 text-center">
             At Bytespace Courses, we bring you closer to life-changing knowledge. Explore a variety
             of courses across different fields, from technology to the arts, and make a difference
             in your career and life.
@@ -97,7 +97,9 @@ const Courses = () => {
         {filteredCourses.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
             {filteredCourses.map((course) => (
-              <CourseCard key={course.id} course={course} avatars={avatars} />
+              <Link key={course.id} to={`/course-details/${course.id}`} className="block group">
+                <CourseCard key={course.id} course={course} avatars={avatars} />
+              </Link>
             ))}
           </div>
         ) : (

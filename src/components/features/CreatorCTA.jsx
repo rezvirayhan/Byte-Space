@@ -12,7 +12,6 @@ import Button from '../ui/Button';
 const CreatorCTA = () => {
   return (
     <div className="relative w-full min-h-[600px] md:min-h-[650px] lg:min-h-[550px] bg-[#0042EC] overflow-hidden flex flex-col items-center justify-center text-center px-6 py-20 font-sans">
-      {/* Background Grid */}
       <div
         className="absolute inset-0 pointer-events-none opacity-25"
         style={{
@@ -24,7 +23,6 @@ const CreatorCTA = () => {
         }}
       />
 
-      {/* Floating 3D Elements */}
       <div className="absolute top-0 -left-1 w-96 h-96 pointer-events-none select-none lg:block hidden">
         <img src={l1} alt="" />
       </div>
@@ -53,7 +51,6 @@ const CreatorCTA = () => {
         <img src={r3} alt="" />
       </div>
 
-      {/* Content Container */}
       <div className="relative z-10 max-w-8xl mx-auto flex flex-col items-center text-center">
         <SectionTitle
           title="Unlock Your Potential as a "
@@ -68,7 +65,6 @@ const CreatorCTA = () => {
           publishing your finest course on the ByteSpace Course Library.
         </p>
 
-        {/* Centered Button Section */}
         <div className="w-full flex justify-center items-center mt-10 sm:mt-14">
           <Button type="submit" className="rounded-full px-8 py-3.5 font-medium text-black">
             Join as Creator

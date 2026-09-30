@@ -7,22 +7,26 @@ const CourseCard = ({ course, avatars = [] }) => {
         course.featured ? 'border-[#CED0D3] p-4' : 'border-[#CED0D3]'
       }`}
     >
-      {/* Card Top / Image Container */}
       <div className="relative rounded-2xl h-48 w-full overflow-hidden">
-        <img src={course.image} alt={course.title} className="w-full h-full object-cover" />
-
-        {/* Overlay Pills on Image */}
-        <div className="absolute  bottom-3 left-3 right-3 flex items-center justify-between text-[10px] text-gray-700  backdrop-blur-md px-3 py-1.5 rounded-full shadow-sm">
-          <span>{course.lessons} Lessons</span>
-          <span>{course.duration}</span>
-          <span>{course.comments} Comments</span>
+        <img
+          src={course.image || course.video}
+          alt={course.title}
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+        <div className="absolute  bottom-3 left-3 right-3 flex items-center justify-between text-[10px]  px-3 py-1.5 rounded-full  text-[#4F4F4F] font-satoshi ">
+          <span className="backdrop-blur-md shadow-sm px-4 py-2 text-sm rounded-4xl">
+            {course.lessons} Lessons
+          </span>
+          <span className="backdrop-blur-md shadow-sm px-4 py-2 text-sm rounded-4xl">
+            {course.duration}
+          </span>
+          <span className="backdrop-blur-md shadow-sm px-4 py-2 text-sm rounded-4xl">
+            {course.comments} Comments
+          </span>
         </div>
       </div>
-
-      {/* Card Content Body */}
       <div className="p-5 flex-1 flex flex-col justify-between">
         <div>
-          {/* Title and Rating */}
           <div className="flex items-start justify-between gap-2">
             <h3 className="font-poppins text-xl font-semibold  text-[#000000] leading-snug">
               {course.title}
@@ -33,14 +37,12 @@ const CourseCard = ({ course, avatars = [] }) => {
             </div>
           </div>
 
-          {/* Author */}
           <p className="text-xs font-satoshi  mt-1">
             <span className="text-[#4F4F4F]">by</span>
             <span className="text-[#003BE2]"> {course.author}</span>
           </p>
         </div>
 
-        {/* Course Meta: Level + Student Avatars */}
         <div className="flex gap-6 mt-4">
           <div className="flex items-center gap-1.5 bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-600 font-medium">
             <svg className="w-3.5 h-3.5 text-gray-500" fill="currentColor" viewBox="0 0 24 24">

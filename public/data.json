@@ -27,259 +27,238 @@
   "courses": [
     {
       "id": 1,
+      "video": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&w=600&q=80",
       "title": "Learn Figma from Basic",
+      "mainTitle": "Build Digital Asset: A Comprehensive Guide",
+      "subtitleTitle": "Unlock the Power of Digital Creation with Expert Guidance",
+      "byStudio": "purepearl studio",
       "author": "purepearl studio",
+      "mentorName": "Jane Doe",
+      "mentorTitle": "Lead Product Designer at Purepearl",
       "rating": 4.5,
-      "price": 25 ,
+      "price": 25,
       "pricingType": "lifetime",
       "level": "Beginner",
-      "lessons": 17,
+      "lessonsCount": 17,
       "duration": "2 hours 16 mins",
-      "comments": 59,
+      "totalLessonDuration": "2 hours 16 mins",
+      "commentsCount": 59,
       "studentsCount": "26+",
       "category": "ui-ux",
+      "lessons": 17,
+      "comments": 59,
       "image": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&w=600&q=80",
-      "featured": true
-    },
-    {
-      "id": 2,
-      "title": "Build Digital Asset",
-      "author": "purepearl studio",
-      "rating": 4.5,
-      "price": 25,
-      "pricingType": "lifetime",
-      "level": "Beginner",
-      "lessons": 17,
-      "duration": "2 hours 16 mins",
-      "comments": 59,
-      "studentsCount": "26+",
-      "category": "drawing",
-      "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80",
-      "featured": true
-    },
-    {
-      "id": 3,
-      "title": "the Power of Big Data",
-      "author": "purepearl studio",
-      "rating": 4.5,
-      "price": 25,
-      "pricingType": "lifetime",
-      "level": "Beginner",
-      "lessons": 17,
-      "duration": "2 hours 16 mins",
-      "comments": 59,
-      "studentsCount": "26+",
-      "category": "drawing",
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80",
-      "featured": false
-    },
-    {
-      "id": 4,
-      "title": "Balancing Productivity an...",
-      "author": "purepearl studio",
-      "rating": 4.5,
-      "price": 25,
-      "pricingType": "lifetime",
-      "level": "Beginner",
-      "lessons": 17,
-      "duration": "2 hours 16 mins",
-      "comments": 59,
-      "studentsCount": "26+",
-      "category": "drawing",
-      "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=600&q=80",
-      "featured": true
-    },
-    {
-      "id": 5,
-      "title": "Mastering Money Manage...",
-      "author": "purepearl studio",
-      "rating": 4.5,
-      "price": 25,
-      "pricingType": "lifetime",
-      "level": "Beginner",
-      "lessons": 17,
-      "duration": "2 hours 16 mins",
-      "comments": 59,
-      "studentsCount": "26+",
-      "category": "drawing",
-      "image": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=600&q=80",
-      "featured": false
-    },
-    {
-      "id": 6,
-      "title": "From Idea to Startup Succ...",
-      "author": "purepearl studio",
-      "rating": 4.5,
-      "price": 25,
-      "pricingType": "lifetime",
-      "level": "Beginner",
-      "lessons": 17,
-      "duration": "2 hours 16 mins",
-      "comments": 59,
-      "studentsCount": "26+",
-      "category": "marketing",
-      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80",
-      "featured": false
-    },
-    {
-      "id": 7,
-      "title": "From Idea to Startup Succ...",
-      "author": "purepearl studio",
-      "rating": 4.5,
-      "price": 25,
-      "pricingType": "lifetime",
-      "level": "Beginner",
-      "lessons": 17,
-      "duration": "2 hours 16 mins",
-      "comments": 59,
-      "studentsCount": "26+",
-      "category": "drawing",
-      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80",
-      "featured": true
-    },
-    {
-      "id": 8,
-      "title": "From Idea to Startup Succ...",
-      "author": "purepearl studio",
-      "rating": 4.5,
-      "price": 25,
-      "pricingType": "lifetime",
-      "level": "Beginner",
-      "lessons": 17,
-      "duration": "2 hours 16 mins",
-      "comments": 59,
-      "studentsCount": "26+",
-      "category": "drawing ",
-      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80",
-      "featured": true
-    },
-    {
-      "id": 9,
-      "title": "From Idea to Startup Succ...",
-      "author": "purepearl studio",
-      "rating": 4.5,
-      "price": 25,
-      "pricingType": "lifetime",
-      "level": "Beginner",
-      "lessons": 17,
-      "duration": "2 hours 16 mins",
-      "comments": 59,
-      "studentsCount": "26+",
-      "category": "marketing",
-      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80",
-      "featured": true
-    },
-    {
-      "id": 10,
-      "title": "From Idea to Startup Succ...",
-      "author": "purepearl studio",
-      "rating": 4.5,
-      "price": 25,
-      "pricingType": "lifetime",
-      "level": "Beginner",
-      "lessons": 17,
-      "duration": "2 hours 16 mins",
-      "comments": 59,
-      "studentsCount": "26+",
-      "category": "marketing",
-      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80",
-      "featured": true
-    },
-    {
-      "id": 11,
-      "title": "From Idea to Startup Succ...",
-      "author": "purepearl studio",
-      "rating": 4.5,
-      "price": 25,
-      "pricingType": "lifetime",
-      "level": "Beginner",
-      "lessons": 17,
-      "duration": "2 hours 16 mins",
-      "comments": 59,
-      "studentsCount": "26+",
-      "category": "marketing",
-      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80",
-      "featured": false
-    },
-    {
-      "id": 12,
-      "title": "From Idea to Startup Succ...",
-      "author": "purepearl studio",
-      "rating": 4.5,
-      "price": 25,
-      "pricingType": "lifetime",
-      "level": "Beginner",
-      "lessons": 17,
-      "duration": "2 hours 16 mins",
-      "comments": 59,
-      "studentsCount": "26+",
-      "category": "marketing",
-      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80",
-      "featured": false
-    },
-    {
-      "id": 13,
-      "title": "From Idea to Startup Succ...",
-      "author": "purepearl studio",
-      "rating": 4.5,
-      "price": 25,
-      "pricingType": "lifetime",
-      "level": "Beginner",
-      "lessons": 17,
-      "duration": "2 hours 16 mins",
-      "comments": 59,
-      "studentsCount": "26+",
-      "category": "marketing",
-      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80",
-      "featured": false
-    },
-    {
-      "id": 14,
-      "title": "From Idea to Startup Succ...",
-      "author": "purepearl studio",
-      "rating": 4.5,
-      "price": 25,
-      "pricingType": "lifetime",
-      "level": "Beginner",
-      "lessons": 17,
-      "duration": "2 hours 16 mins",
-      "comments": 59,
-      "studentsCount": "26+",
-      "category": "marketing",
-      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80",
-      "featured": false
-    },
-    {
-      "id": 15,
-      "title": "From Idea to Startup Succ...",
-      "author": "purepearl studio",
-      "rating": 4.5,
-      "price": 25,
-      "pricingType": "lifetime",
-      "level": "Beginner",
-      "lessons": 17,
-      "duration": "2 hours 16 mins",
-      "comments": 59,
-      "studentsCount": "26+",
-      "category": "marketing",
-      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80",
-      "featured": false
-    },
-    {
-      "id": 16,
-      "title": "From Idea to Startup Succ...",
-      "author": "purepearl studio",
-      "rating": 4.5,
-      "price": 25,
-      "pricingType": "lifetime",
-      "level": "Beginner",
-      "lessons": 17,
-      "duration": "2 hours 16 mins",
-      "comments": 59,
-      "studentsCount": "26+",
-      "category": "marketing",
-      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80",
-      "featured": false
+      "featured": true,
+      "complete_lesson_progress": 90,
+      "lessonsIncluded": [
+        "Full lifetime access",
+        "Access on mobile and desktop",
+        "Certificate of completion",
+        "Downloadable source files",
+        "Direct mentor support"
+      ],
+      "lesson_content": {
+        "overview": "This course covers everything required to master Figma from basic interface navigation to scalable design systems.",
+        "prerequisites": "No prior design experience required. Just a computer with internet access and a free Figma account.",
+        "targetAudience": "Beginner UI/UX Designers, Developers looking to improve handoff skills, and Product Managers."
+      },
+      "lesson_progress_tracking": {
+        "totalLessons": 17,
+        "completedLessons": 9,
+        "percentageCompleted": 55,
+        "lastAccessedLessonId": 101,
+        "isCompleted": false
+      },
+      "lesson_progress_tracking_content": {
+        "milestones": [
+          {
+            "id": "m-1",
+            "title": "Figma Foundations",
+            "description": "Complete all module 1 lessons covering tools, frames, and constraints.",
+            "completed": true
+          },
+          {
+            "id": "m-2",
+            "title": "Advanced Component Architecture",
+            "description": "Master Auto Layout, variants, and interactive prototyping.",
+            "completed": false
+          }
+        ],
+        "certificateEligible": false,
+        "timeSpentMinutes": 75
+      },
+      "courseOverview": {
+        "description": "Embark on an enlightening exploration into the world of digital creation with our comprehensive course, Build Digital Assets: A Comprehensive Guide. This transformative learning experience invites you to delve deep into the intricacies of crafting impactful digital content. From laying the groundwork with foundational concepts to mastering advanced techniques, this guide is meticulously curated to empower you with the skills essential for navigating the dynamic landscape of digital asset creation. In the initial modules, you'll establish a solid foundation by immersing yourself in the foundational concepts that form the backbone of digital asset creation. Understand the fundamental elements that constitute compelling digital content and gain proficiency in leveraging these elements to communicate effectively in the digital realm. As you progress through the course, you'll ascend to higher levels of expertise, delving into the nuances of design principles that drive impactful creations. Uncover the secrets behind effective visual communication, exploring color theory, typography, and layout strategies that elevate your digital assets to new heights. Engage in hands-on exercises that reinforce your understanding, allowing you to apply these principles in practical scenarios.",
+        "lesson_description": "Embark on an enlightening exploration into the world of digital creation with our comprehensive course, Build Digital Assets: A Comprehensive Guide.",
+        "images": [
+          "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&w=600&q=80",
+          "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80",
+          "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=600&q=80",
+          "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=600&q=80"
+        ],
+        "keyPoints": [
+          "Understand core Figma UI components and navigation shortcuts.",
+          "Build dynamic layouts using nested Auto Layout containers.",
+          "Create reusable design system components and variants.",
+          "Prototype interactive micro-interactions and transitions."
+        ]
+      },
+      "modules": [
+        {
+          "id": 1,
+          "title": "Module 1: Introduction to Digital Assets",
+          "lessonsdata": [
+            {
+              "id": 101,
+              "title": "Lay the groundwork with lessons like 'Understanding Digital Elements' and 'Navigating Design Software Tools.' Dive into the essentials of digital asset creation.",
+              "durationdata": "08:15",
+              "lesson_content": {
+                "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+                "summary": "Introduction to fundamental UI elements, design workspace configuration, and navigation essentials.",
+                "resources": [
+                  {
+                    "name": "Figma Workspace Cheat Sheet.pdf",
+                    "url": "https://example.com/resources/cheatsheet.pdf"
+                  }
+                ]
+              },
+              "lesson_progress_tracking": {
+                "completed": true,
+                "progressPercentage": 100,
+                "watchTimeSeconds": 495
+              },
+              "lesson_progress_tracking_content": {
+                "quizPassed": true,
+                "notesTaken": "Key shortcut: Shift + A for Auto Layout",
+                "lastPositionSeconds": 495
+              }
+            },
+            {
+              "id": 102,
+              "title": "Frames vs. Rectangles and Constraints",
+              "durationdata": "12:30",
+              "lesson_content": {
+                "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+                "summary": "Detailed comparison between standard shapes and Figma Frames, including layout constraints behavior.",
+                "resources": [
+                  {
+                    "name": "Constraints Practice File.fig",
+                    "url": "https://example.com/resources/constraints.fig"
+                  }
+                ]
+              },
+              "lesson_progress_tracking": {
+                "completed": true,
+                "progressPercentage": 100,
+                "watchTimeSeconds": 750
+              },
+              "lesson_progress_tracking_content": {
+                "quizPassed": true,
+                "notesTaken": "Frames allow nesting and clip content.",
+                "lastPositionSeconds": 750
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Module 2: Layouts & Advanced Components",
+          "lessonsdata": [
+            {
+              "id": 201,
+              "title": "Mastering Responsive Auto Layout",
+              "duration": "15:45",
+              "lesson_content": {
+                "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+                "summary": "In-depth guide on applying Auto Layout v5, padding, gap controls, and responsive resizing settings.",
+                "resources": [
+                  {
+                    "name": "Auto Layout Exercises.fig",
+                    "url": "https://example.com/resources/autolayout.fig"
+                  }
+                ]
+              },
+              "lesson_progress_tracking": {
+                "completed": false,
+                "progressPercentage": 10,
+                "watchTimeSeconds": 94
+              },
+              "lesson_progress_tracking_content": {
+                "quizPassed": false,
+                "notesTaken": "",
+                "lastPositionSeconds": 94
+              }
+            },
+            {
+              "id": 202,
+              "title": "Creating Design System Components & Variants",
+              "duration": "18:20",
+              "lesson_content": {
+                "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+                "summary": "Building component sets, configuring variant properties, and organizing reusable UI libraries.",
+                "resources": [
+                  {
+                    "name": "Component Library Template.fig",
+                    "url": "https://example.com/resources/components.fig"
+                  }
+                ]
+              },
+              "lesson_progress_tracking": {
+                "completed": false,
+                "progressPercentage": 0,
+                "watchTimeSeconds": 0
+              },
+              "lesson_progress_tracking_content": {
+                "quizPassed": false,
+                "notesTaken": "",
+                "lastPositionSeconds": 0
+              }
+            }
+          ]
+        }
+      ],
+      "lessonsdata": [
+        {
+          "id": 1,
+          "title": "Introduction to Figma Interface",
+          "duration": "08:15"
+        },
+        {
+          "id": 2,
+          "title": "Understanding Frames & Grids",
+          "duration": "12:30"
+        },
+        {
+          "id": 3,
+          "title": "Working with Auto Layout",
+          "duration": "15:45"
+        },
+        {
+          "id": 4,
+          "title": "Components & Variants Overview",
+          "duration": "18:20"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "rev-01",
+          "studentName": "Alex Morgan",
+          "studentImage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80",
+          "studentSkill": "Junior UI Designer",
+          "studentRating": 5,
+          "studentReview": "This course gave me complete clarity on Auto Layouts and component variants. The step-by-step approach made UI design so much easier to grasp!",
+          "studentYear": "a year ago"
+        },
+        {
+          "id": "rev-02",
+          "studentName": "David Chen",
+          "studentImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80",
+          "studentSkill": "Frontend Developer",
+          "studentRating": 1,
+          "studentReview": "As a developer, I wanted to understand Figma better so I could inspect designs accurately. This course was precise, concise, and super helpful.",
+          "studentYear": "a year ago"
+        }
+      ]
     }
   ]
 }

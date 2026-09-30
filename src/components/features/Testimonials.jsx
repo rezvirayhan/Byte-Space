@@ -46,7 +46,6 @@ export default function TestimonialsSection() {
 
   return (
     <div className="relative bg-[#FAFAFA] text-slate-800 min-h-screen py-16 md:py-24 px-4 sm:px-6 lg:px-12 overflow-hidden font-sans selection:bg-[#d0fc01] selection:text-black">
-      {/* 1. Bottom Left - Soft Blue Soft Glow */}
       <div
         className="pointer-events-none absolute -bottom-20 -left-20 w-[600px] h-[600px] rounded-full z-0 opacity-70 blur-3xl"
         style={{
@@ -55,7 +54,6 @@ export default function TestimonialsSection() {
         }}
       />
 
-      {/* 2. Top Center - Vibrant Lime Green Orb */}
       <div
         className="pointer-events-none absolute -top-24 left-1/2 -translate-x-1/2 w-[550px] h-[550px] rounded-full z-0 opacity-80 blur-3xl"
         style={{
@@ -64,7 +62,6 @@ export default function TestimonialsSection() {
         }}
       />
 
-      {/* 3. Top Right - Large Lime Yellow Soft Glow */}
       <div
         className="pointer-events-none absolute -top-10 -right-20 w-[700px] h-[700px] rounded-full z-0 opacity-75 blur-3xl"
         style={{

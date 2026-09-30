@@ -2,11 +2,11 @@ import React from 'react';
 import Images from '../../images';
 import SearchInput from '../ui/SearchInput';
 import Button from '../ui/Button';
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
     <div className="relative bg-[#0550FE] text-white font-sans overflow-hidden select-none min-h-screen flex flex-col justify-between">
-      {/* Grid Pattern Background */}
       <div
         className="absolute inset-0 opacity-20 pointer-events-none"
         style={{
@@ -47,20 +47,24 @@ const HeroSection = () => {
         </div>
 
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-white/90">
-          <a href="#home" className="hover:text-white transition-colors font-satoshi">
+          <Link to="/" className="hover:text-white transition-colors font-satoshi">
             Home
-          </a>
-          <a href="#courses" className="hover:text-white transition-colors font-satoshi">
+          </Link>
+          <Link to="/courses" className="hover:text-white transition-colors font-satoshi">
             Courses
-          </a>
-          <a href="#creators" className="hover:text-white transition-colors font-satoshi">
+          </Link>
+          <Link to="creator-profile" className="hover:text-white transition-colors font-satoshi">
             Creators
-          </a>
+          </Link>
         </div>
 
         <div className="flex items-center gap-3 sm:gap-6 text-sm font-medium font-satoshi">
-          <button className="hover:text-white/80 transition-colors">Sign In</button>
-          <button className="hover:text-white/80 transition-colors">Join Us</button>
+          <Link to="signin">
+            <button className="hover:text-white/80 transition-colors">Sign In</button>
+          </Link>
+          <Link to="join">
+            <button className="hover:text-white/80 transition-colors">Join Us</button>
+          </Link>
           <button
             className="p-2 text-white hover:text-[#D8FF00] transition-colors"
             aria-label="Cart"
@@ -83,12 +87,14 @@ const HeroSection = () => {
           <div className="mt-6 sm:mt-8 max-w-lg sm:max-w-xl mx-auto px-2">
             <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-3 bg-white/10 sm:bg-transparent p-2 sm:p-0 rounded-2xl sm:rounded-full">
               <SearchInput height="h-10" noButton={true} className="w-full shadow-sm" />
-              <Button
-                type="submit"
-                className="w-full sm:w-auto px-6 py-2.5 h-10 text-[#242528] bg-[#D8FF00]  font-medium rounded-full hover:opacity-90 transition-opacity shrink-0"
-              >
-                Search
-              </Button>
+              <Link to="/courses">
+                <Button
+                  type="submit"
+                  className="w-full sm:w-auto px-6 py-2.5 h-10 text-[#242528] bg-[#D8FF00]  font-medium rounded-full hover:opacity-90 transition-opacity shrink-0 cursor-pointer"
+                >
+                  Search
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
