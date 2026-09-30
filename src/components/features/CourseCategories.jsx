@@ -1,16 +1,13 @@
-import React from 'react';
+import Images from '../../images';
 import SectionTitle from '../ui/SectionTitle';
-
-import icon1 from '/assets/icon/4.png';
-
 const CourseCategories = () => {
   const categories = [
-    { id: 1, name: 'Design', src: icon1, alt: 'Design' },
-    { id: 2, name: 'Development', src: icon1, alt: 'Development' },
-    { id: 3, name: 'IT & Software', src: icon1, alt: 'IT & Software' },
-    { id: 4, name: 'Business', src: icon1, alt: 'Business' },
-    { id: 5, name: 'Marketing', src: icon1, alt: 'Marketing' },
-    { id: 6, name: 'Photography', src: icon1, alt: 'Photography' },
+    { id: 1, name: 'Design', src: Images.design, alt: 'Design' },
+    { id: 2, name: 'Development', src: Images.Development, alt: 'Development' },
+    { id: 3, name: 'IT & Software', src: Images.IT, alt: 'IT & Software' },
+    { id: 4, name: 'Business', src: Images.Business, alt: 'Business' },
+    { id: 5, name: 'Marketing', src: Images.Marketing, alt: 'Marketing' },
+    { id: 6, name: 'Photography', src: Images.Photography, alt: 'Photography' },
   ];
 
   return (
