@@ -46,15 +46,8 @@ const CourseHeader = ({ course, ratingData }) => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           <div className="lg:col-span-8">
             <div className="relative bg-slate-200 rounded-3xl overflow-hidden aspect-video shadow-xl border-4 border-white">
-              <img
-                src={
-                  course.image ||
-                  course.video ||
-                  'https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&w=600&q=80'
-                }
-                alt={course.title}
-                className="w-full h-full object-cover"
-              />
+              <img src={course.video} alt={course.title} className="w-full h-full object-cover" />
+
               <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
                 <button
                   className="w-16 h-16 bg-white/90 hover:bg-white text-slate-900 rounded-2xl flex items-center justify-center shadow-2xl transition-transform transform hover:scale-105"

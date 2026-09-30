@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import SectionTitle from '../ui/SectionTitle';
+import Images from '../../images';
 
 export default function TestimonialsSection() {
   const testimonials = [
@@ -7,38 +8,33 @@ export default function TestimonialsSection() {
       id: 1,
       name: 'Sarah M.',
       role: 'Enthusiastic Learner',
-      avatar:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200',
+      avatar: Images.team1,
       category: 'learner',
       rating: 5,
       content:
         'ByteSpace has transformed my approach to learning. The diverse range of courses and the quality of content provided by creators have exceeded my expectations. The platform truly fosters a sense of community and lifelong learning.',
+      highlight: 'Transformed my approach to learning',
+    },
+    {
+      id: 2,
+      name: 'James L.',
+      role: 'Lifelong Learner',
+      avatar: Images.team2,
+      category: 'learner',
+      rating: 5,
+      content:
+        'Ive tried several online learning platforms, and ByteSpace stands out for its vibrant community and the variety of courses available. The easy navigation and engaging content make it a go-to platform for continuous skill development.',
       badge: 'Verified Student',
       highlight: 'Transformed my approach to learning',
     },
     {
-      id: 1,
-      name: 'Sarah M.',
-      role: 'Enthusiastic Learner',
-      avatar:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200',
-      category: 'learner',
+      id: 3,
+      name: 'Alex B.',
+      role: 'Inspired Creator',
+      avatar: Images.team3,
       rating: 5,
       content:
-        'ByteSpace has transformed my approach to learning. The diverse range of courses and the quality of content provided by creators have exceeded my expectations. The platform truly fosters a sense of community and lifelong learning.',
-      badge: 'Verified Student',
-      highlight: 'Transformed my approach to learning',
-    },
-    {
-      id: 1,
-      name: 'Sarah M.',
-      role: 'Enthusiastic Learner',
-      avatar:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200',
-      category: 'learner',
-      rating: 5,
-      content:
-        'ByteSpace has transformed my approach to learning. The diverse range of courses and the quality of content provided by creators have exceeded my expectations. The platform truly fosters a sense of community and lifelong learning.',
+        'As a creator, ByteSpace has been a game-changer for me. The Course Editor is user-friendly, and the support from the community is incredible. It is fulfilling to see my courses making a positive impact on learners globally.',
       badge: 'Verified Student',
       highlight: 'Transformed my approach to learning',
     },
@@ -72,7 +68,7 @@ export default function TestimonialsSection() {
 
       <div className="max-w-[1460px] mx-auto relative z-10 space-y-12 md:space-y-16">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
-          <div className="lg:col-span-6 space-y-4">
+          <div className="lg:col-span-6 space-y-4 md:text-center lg:text-left">
             <SectionTitle
               title="Discover What Our "
               heading="Community Is Saying"
@@ -81,7 +77,7 @@ export default function TestimonialsSection() {
           </div>
 
           <div className="lg:col-span-6 space-y-6 lg:pt-2 font-satoshi">
-            <p className=" sm:text-[19px] text-[#4F4F4F] leading-relaxed font-normal">
+            <p className=" sm:text-[19px] text-[#4F4F4F] leading-relaxed font-normal md:text-center lg:text-left">
               At ByteSpace, our vibrant community of learners and creators is at the heart of what
               we do. Hear directly from those who have experienced the transformative journey of
               learning and creating on our platform. Explore testimonials that reflect the diverse
