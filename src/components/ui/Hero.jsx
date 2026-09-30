@@ -49,10 +49,10 @@ const Hero = ({
         </div>
 
         <div className="flex items-center gap-4 text-sm font-medium font-satoshi">
-          <Link to="/signin" className="hover:text-blue-200 transition-colors">
+          <Link to="/login" className="hover:text-blue-200 transition-colors">
             Sign In
           </Link>
-          <Link to="/join" className="hover:text-blue-200 transition-colors">
+          <Link to="/register" className="hover:text-blue-200 transition-colors">
             Join Us
           </Link>
           <Link

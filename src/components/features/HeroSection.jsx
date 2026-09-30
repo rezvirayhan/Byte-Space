@@ -59,10 +59,10 @@ const HeroSection = () => {
         </div>
 
         <div className="flex items-center gap-3 sm:gap-6 text-sm font-medium font-satoshi">
-          <Link to="signin">
+          <Link to="/login">
             <button className="hover:text-white/80 transition-colors">Sign In</button>
           </Link>
-          <Link to="join">
+          <Link to="register">
             <button className="hover:text-white/80 transition-colors">Join Us</button>
           </Link>
           <button

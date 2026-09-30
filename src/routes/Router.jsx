@@ -5,6 +5,8 @@ import NotFound from '../Pages/NotFound';
 import Search from '../Pages/Search';
 import CreatorProfile from '../Pages/CreatorProfile';
 import CourseData from '../components/features/CourseDetails/CourseData';
+import Login from './../Pages/Login';
+import Register from './../Pages/Register';
 
 const router = createBrowserRouter([
   {
@@ -30,14 +32,14 @@ const router = createBrowserRouter([
       },
     ],
   },
-  // {
-  //   path: '/signin',
-  //   element: <Login />,
-  // },
-  // {
-  //   path: '/join',
-  //   element: <Register />,
-  // },
+  {
+    path: '/login',
+    element: <Login />,
+  },
+  {
+    path: '/register',
+    element: <Register />,
+  },
   {
     path: '*',
     element: <NotFound />,
