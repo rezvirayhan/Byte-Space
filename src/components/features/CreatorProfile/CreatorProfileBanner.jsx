@@ -1,5 +1,4 @@
 import Hero from '../../ui/Hero';
-import SearchInput from './../../ui/SearchInput';
 import Button from './../../ui/Button';
 import Images from '../../../images';
 import SectionTitle from '../../ui/SectionTitle';
