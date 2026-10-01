@@ -65,7 +65,7 @@ const CreatorProfileBanner = () => {
             <div>
               <Button
                 type="submit"
-                className="w-full sm:w-auto px-6 py-2.5 h-10 text-[#242528] bg-[#D4FB20] font-medium rounded-full hover:opacity-90 transition-opacity shrink-0"
+                className="w-full sm:w-auto px-6 py-2.5 h-10 text-[#242528] bg-[#D4FB20] font-medium rounded-full hover:opacity-90 transition-opacity shrink-0 cursor-pointer"
               >
                 Flow
               </Button>
