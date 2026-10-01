@@ -1,5 +1,5 @@
-import Images from '../../images';
-import SectionTitle from '../ui/SectionTitle';
+import Images from '../../../utils';
+import SectionTitle from '../../ui/SectionTitle';
 
 const CheckIcon = () => (
   <svg className="w-5 h-5 flex-shrink-0" viewBox="0 0 24 24" fill="none">

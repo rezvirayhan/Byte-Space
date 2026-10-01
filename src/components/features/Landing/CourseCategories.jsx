@@ -1,5 +1,6 @@
-import Images from '../../images';
-import SectionTitle from '../ui/SectionTitle';
+import Images from '../../../utils';
+import SectionTitle from './../../ui/SectionTitle';
+
 const CourseCategories = () => {
   const categories = [
     { id: 1, name: 'Design', src: Images.design, alt: 'Design' },

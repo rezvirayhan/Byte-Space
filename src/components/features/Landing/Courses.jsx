@@ -1,8 +1,8 @@
 import { useState, useEffect, useMemo } from 'react';
-import CourseCard from './CoursesCard';
-import NoCourses from '../ui/Nocourses';
-import SectionTitle from '../ui/SectionTitle';
+import NoCourses from '../../ui/Nocourses';
+import SectionTitle from '../../ui/SectionTitle';
 import { Link } from 'react-router-dom';
+import CourseCard from '../../ui/CoursesCard';
 
 const Courses = () => {
   const [coursesData, setCoursesData] = useState({

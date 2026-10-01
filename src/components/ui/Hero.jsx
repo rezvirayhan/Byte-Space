@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Images from '../../images';
+import Images from '../../utils';
 
 const Hero = ({
   title,

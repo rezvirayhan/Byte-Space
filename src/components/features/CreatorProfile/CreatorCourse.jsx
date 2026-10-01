@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import SectionTitle from '../../ui/SectionTitle';
-import CourseCard from '../CoursesCard';
+import { useState, useEffect } from 'react';
 import NoCourses from '../../ui/Nocourses';
+import CourseCard from '../../ui/CoursesCard';
 
 const CreatorCourse = () => {
   const [coursesData, setCoursesData] = useState({
@@ -12,7 +11,7 @@ const CreatorCourse = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('../../../../public/creatorcourse.json')
+    fetch('/creatorcourse.json')
       .then((response) => response.json())
       .then((data) => {
         setCoursesData(data);

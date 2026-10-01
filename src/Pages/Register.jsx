@@ -1,4 +1,4 @@
-import Images from '../images';
+import Images from '../utils';
 import { AuthInputField } from './../components/ui/AuthInputField';
 import Button from '../components/ui/Button';
 import { Link } from 'react-router-dom';
@@ -19,7 +19,7 @@ const Register = () => {
       <div className="relative z-10 w-full max-w-7xl mx-auto flex flex-col justify-center items-center">
         <div className="w-full mb-10 text-left">
           <div className="mb-6">
-            <Link to='/'>
+            <Link to="/">
               <img className="w-10 h-10 object-contain" src={Images.helfLogo} alt="Logo" />
             </Link>
           </div>

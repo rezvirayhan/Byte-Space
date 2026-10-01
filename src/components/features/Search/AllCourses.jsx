@@ -1,9 +1,9 @@
 import { useState, useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import SectionTitle from '../../ui/SectionTitle';
-import CourseCard from '../CoursesCard';
 import NoCourses from '../../ui/Nocourses';
 import Pagination from '../../ui/Pagination';
+import CourseCard from '../../ui/CoursesCard';
 
 const ITEMS_PER_PAGE = 15;
 

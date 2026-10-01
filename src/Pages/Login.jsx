@@ -1,7 +1,7 @@
-import Images from '../images';
 import { AuthInputField } from './../components/ui/AuthInputField';
 import Button from '../components/ui/Button';
 import { Link } from 'react-router-dom';
+import Images from '../utils';
 
 const Login = () => {
   return (

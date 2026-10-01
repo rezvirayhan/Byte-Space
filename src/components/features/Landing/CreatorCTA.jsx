@@ -1,13 +1,12 @@
-import React from 'react';
-import l1 from '../../../public/assets/cat/l1.png';
-import l2 from '../../../public/assets/cat/l2.png';
-import l3 from '../../../public/assets/cat/l3.png';
-import l4 from '../../../public/assets/cat/l4.png';
-import r1 from '../../../public/assets/cat/r1.png';
-import r2 from '../../../public/assets/cat/r2.png';
-import r3 from '../../../public/assets/cat/r3.png';
-import SectionTitle from '../ui/SectionTitle';
-import Button from '../ui/Button';
+import l1 from '../../../../public/assets/cat/l1.png';
+import l2 from '../../../../public/assets/cat/l2.png';
+import l3 from '../../../../public/assets/cat/l3.png';
+import l4 from '../../../../public/assets/cat/l4.png';
+import r1 from '../../../../public/assets/cat/r1.png';
+import r2 from '../../../../public/assets/cat/r2.png';
+import r3 from '../../../../public/assets/cat/r3.png';
+import SectionTitle from '../../ui/SectionTitle';
+import Button from '../../ui/Button';
 
 const CreatorCTA = () => {
   return (
