@@ -65,7 +65,10 @@ const CreatorCTA = () => {
         </p>
 
         <div className="w-full flex justify-center items-center mt-10 sm:mt-14">
-          <Button type="submit" className="rounded-full px-8 py-3.5 font-medium text-black">
+          <Button
+            type="submit"
+            className="cursor-pointer rounded-full px-8 py-3.5 font-medium text-black"
+          >
             Join as Creator
           </Button>
         </div>

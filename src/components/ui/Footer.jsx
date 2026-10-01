@@ -68,7 +68,7 @@ const Footer = () => {
               <div className="w-full sm:w-auto">
                 <Button
                   type="submit"
-                  className="w-full sm:w-auto px-8 py-3 text-[#242528] font-medium rounded-full hover:opacity-90 transition-opacity"
+                  className="w-full sm:w-auto px-8 py-3 text-[#242528] font-medium rounded-full hover:opacity-90 transition-opacity cursor-pointer"
                 >
                   Subscribe
                 </Button>

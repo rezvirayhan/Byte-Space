@@ -13,7 +13,7 @@ const SearchBanner = () => {
           <SearchInput height="h-10" noButton={true} className="w-full shadow-sm" />
           <Button
             type="submit"
-            className="w-full sm:w-auto px-6 py-2.5 h-10 text-[#242528] bg-[#D8FF00] font-medium rounded-full hover:opacity-90 transition-opacity shrink-0"
+            className="w-full sm:w-auto px-6 py-2.5 h-10 text-[#242528] bg-[#D8FF00] font-medium rounded-full hover:opacity-90 transition-opacity shrink-0 cursor-pointer"
           >
             Search
           </Button>
