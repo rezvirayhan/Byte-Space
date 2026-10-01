@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
-import CourseCard from '../CoursesCard';
 import NoCourses from '../../ui/Nocourses';
+import CourseCard from '../../ui/CoursesCard';
+
 
 const CreatorCourse = () => {
   const [coursesData, setCoursesData] = useState({

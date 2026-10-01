@@ -1,4 +1,5 @@
 import React from 'react';
+import CourseInfoPills from './CourseInfoPills';
 
 const CourseCard = ({ course, avatars = [] }) => {
   return (
@@ -13,16 +14,14 @@ const CourseCard = ({ course, avatars = [] }) => {
           alt={course.title}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
         />
-        <div className="absolute  bottom-3 left-3 right-3 flex items-center justify-between text-[10px]  px-3 py-1.5 rounded-full  text-[#4F4F4F] font-satoshi ">
-          <span className="backdrop-blur-md shadow-sm px-4 py-2 text-sm rounded-4xl">
-            {course.lessons} Lessons
-          </span>
-          <span className="backdrop-blur-md shadow-sm px-4 py-2 text-sm rounded-4xl">
-            {course.duration}
-          </span>
-          <span className="backdrop-blur-md shadow-sm px-4 py-2 text-sm rounded-4xl">
-            {course.comments} Comments
-          </span>
+        <div>
+          <CourseInfoPills
+            lessons={10}
+            duration="1h 45m"
+            comments={12}
+            pillClassName="bg-[#F6F6F699] text-black shadow-md"
+            containerClassName="text-xs"
+          />
         </div>
       </div>
       <div className="p-5 flex-1 flex flex-col justify-between">
@@ -60,7 +59,7 @@ const CourseCard = ({ course, avatars = [] }) => {
                 className="w-10 h-10 rounded-full border-2 border-white object-cover"
               />
             ))}
-            <div className="w-6 h-6 rounded-full bg-[#DFFF00] border-2 border-white flex items-center justify-center text-[10px] font-bold text-gray-800">
+            <div className="w-10 h-10 rounded-full bg-[#DFFF00] border-2 border-white flex items-center justify-center text-[13px] font-satoshi text-[#242528]">
               {course.studentsCount}
             </div>
           </div>

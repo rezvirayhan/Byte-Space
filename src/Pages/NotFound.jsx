@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import Button from '../components/ui/Button';
 import Hero from '../components/ui/Hero';
-import Footer from '../components/features/Footer';
+import Footer from '../components/ui/Footer';
 
 const NotFound = () => {
   return (

@@ -1,4 +1,4 @@
-import Images from '../../../images';
+import SectionTitle from '../../ui/SectionTitle';
 import Button from '../../ui/Button';
 
 const Reviews = ({

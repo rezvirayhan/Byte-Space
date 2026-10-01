@@ -1,5 +1,5 @@
-import Button from '../ui/Button';
-import Images from './../../images/index';
+import Images from '../../utils';
+import Button from './Button';
 
 const Footer = () => {
   const columnOneLinks = [

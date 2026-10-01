@@ -1,9 +1,8 @@
-import React from 'react';
-import client1 from '../../../public/assets/client/1.png';
-import client2 from '../../../public/assets/client/2.png';
-import client3 from '../../../public/assets/client/3.png';
-import client4 from '../../../public/assets/client/4.png';
-import client5 from '../../../public/assets/client/5.png';
+import client1 from '../../../../public/assets/client/1.png';
+import client2 from '../../../../public/assets/client/2.png';
+import client3 from '../../../../public/assets/client/3.png';
+import client4 from '../../../../public/assets/client/4.png';
+import client5 from '../../../../public/assets/client/5.png';
 
 const OurClients = () => {
   const clientLogos = [

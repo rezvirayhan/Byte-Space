@@ -11,7 +11,7 @@ const CourseDetails = () => {
   const { id } = useParams();
   const [course, setCourse] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [activeTab, setActiveTab] = useState('Reviews');
+  const [activeTab, setActiveTab] = useState('Lesson');
   const [selectedStarFilter, setSelectedStarFilter] = useState('All');
 
   useEffect(() => {

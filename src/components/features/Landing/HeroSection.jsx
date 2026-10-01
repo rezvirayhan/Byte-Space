@@ -1,8 +1,7 @@
-import React from 'react';
-import Images from '../../images';
-import SearchInput from '../ui/SearchInput';
-import Button from '../ui/Button';
+import SearchInput from '../../ui/SearchInput';
+import Button from '../../ui/Button';
 import { Link } from 'react-router-dom';
+import Images from '../../../utils';
 
 const HeroSection = () => {
   return (

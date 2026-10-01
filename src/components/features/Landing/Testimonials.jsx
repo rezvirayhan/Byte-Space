@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
-import SectionTitle from '../ui/SectionTitle';
-import Images from '../../images';
+import SectionTitle from '../../ui/SectionTitle';
+import Images from '../../../utils';
 
-export default function TestimonialsSection() {
+export default function Testimonials() {
   const testimonials = [
     {
       id: 1,
