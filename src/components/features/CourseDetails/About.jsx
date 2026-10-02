@@ -1,3 +1,4 @@
+import Images from '../../../utils';
 import SectionTitle from '../../ui/SectionTitle';
 
 const About = ({ course }) => {
