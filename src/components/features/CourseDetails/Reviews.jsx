@@ -1,5 +1,6 @@
 import SectionTitle from '../../ui/SectionTitle';
 import Button from '../../ui/Button';
+import Images from './../../../utils/index';
 
 const Reviews = ({
   ratingData,
